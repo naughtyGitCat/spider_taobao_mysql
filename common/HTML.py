@@ -1,4 +1,4 @@
-#!/home/dba/python3/bin/python
+#!/usr/bin/python3
 # encoding=utf-8
 
 
