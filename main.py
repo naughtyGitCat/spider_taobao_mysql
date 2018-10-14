@@ -1,4 +1,4 @@
-#!/home/dba/python3/bin/python
+#! /usr/bin/python3
 # encoding=utf-8
 
 # @Time    : 2018/10/12 下午3:59
