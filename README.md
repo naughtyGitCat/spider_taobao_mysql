@@ -5,6 +5,9 @@
 
 ## 使用方式
 ```bash
+# 下载
+cd ~ && git clone https://github.com/naughtyGitCat/spider_taobao_mysql.git
+
 # 修改配置
 vim config.py
 
