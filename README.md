@@ -9,7 +9,7 @@
 vim config.py
 
 # 安装crontab
-"0 10 8 * * source ~/.bashrc && python3 /home/dba/spider/main.py" 
+"0 10 8 * * source ~/.bashrc && python3 ~/spider_taobao_mysql/main.py" 
 
 # 安装依赖
 pip3 install logbook
