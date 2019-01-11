@@ -52,8 +52,8 @@ def generate_link():
     base_link = 'http://mysql.taobao.org/monthly'
     month = int2str(datetime.datetime.today().month-1)
     year = datetime.datetime.today().year
-    if month == '0':
-        month = 12
+    if month == '00':
+        month = '12'
         year = datetime.datetime.today().year-1
     for i in range(1, 11):  # 月报每个月总共10篇，下个月一次性放出
         yield base_link + '/' + str(year) + '/' + month + '/' + int2str(i) + '/'
